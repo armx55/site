@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Final test</title>
+	<link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		
+	<header>
+		<div class="hdtop">
+			<div class="logo">
+				<img src="images/logo.png" alt="">
+			</div>
+				<p><a href="#">Logout</a></p>
+		</div>
+
+		<div class="hdbottom">
+			<nav>
+				<ul>
+					<li><a href="#">Cocpit</a></li>
+					<li><a href="#">Inbox</a></li>
+					<li><a href="#">Jobs</a></li>
+					<li><a href="#">Profile</a></li>
+					<li><a href="#" class="active">Account</a></li>
+					<li><a href="#">Community</a></li>
+				</ul>
+			</nav>
+			<div class="help">
+				<p><a href="#">Need help?</a></p>
+			</div>
+		</div>		
+	</header>
+	<div class="content">
+		<div class="mnleft">
+			<ul>
+				<li><a href="#">Personal Detals</a></li>
+				<li><a href="#">Equipment</a></li>
+				<li><a href="#">Specializations</a></li>
+				<li><a href="#">Billing information</a></li>
+				<li><a href="#" class="active">Legal &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+				<li><a href="#">Settings</a></li>
+			</ul>
+		</div>
+		<div class="form1">
+			<div class="first">
+				<h2>flight permit1</h2>
+			</div>
+			<div class="first1">
+				<p>
+					When you reveive a payment for a reservation, we call that payment to you a "payout". Our sequre payment system supports several payout methods, which can be setup and edited here. Your available payout options and currencies differ by country.
+				</p>
+				<form action="get">
+					<label>
+					<span>Choose Country</span>
+					<select name="list" id="choose">
+						<option value="ge">Germany</option>
+						<option value="am">Armenia</option>
+					</select>
+					</label>
+				</form>
+			</div>
+		</div>
+		<div class="link"><a href="#" class="active">+Add another permit</a></div>
+		<div class="form2">
+			<div class="first">
+				<h2>insurance</h2>
+			</div>
+			<div class="second">
+				<p>
+					This is text that explains why the Insurance is needed and how it is in the best interest of the polot to submit the documents. 
+				</p>
+
+				<form action="">
+					<label for="">
+						<span>Insurance company</span>
+						<input type="text" name="insurance">
+					</label><br>
+
+					<label for="">
+						<span>Policy number &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+						<input type="text" name="insurance">
+					</label><br>
+
+					<label>
+						<span class="ins">Insurance expiration <br>day</span>
+						<input type="number" name="insurance" placeholder="DD"> /
+						<input type="number" name="insurance" placeholder="MM">	/	
+						<input type="number" name="insurance" placeholder="YYYY">
+					</label><br>
+					<label for="">
+						<span >Policy number</span>
+						<input class="policy" type="number" name="insurance">
+						<select name="" id="us">
+							<option value="">US</option>
+							<option value="eu" selected>EUR</option>
+							<option value="am">AMD</option>
+						</select>
+					</label>
+				</form>
+			</div>
+			<button>
+					Save
+			</button>
+		</div>
+	</div>
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,182 @@
+/*header start*/
+header .hdtop {
+	background: #484848;
+	height: 58px;
+}
+
+.logo {
+	float: left;
+	margin: 11px 0 0 120px;
+}
+
+.hdtop p {
+	float: right;
+	margin-right: 150px;
+}
+
+.hdtop a {
+	color: #fff;
+}
+
+.hdbottom {
+	height: 45px;
+	background: #646464;
+}
+
+.hdbottom nav {
+	margin-left: 83px;
+	
+}
+
+nav, ol, li {
+	list-style: none;
+	float: left;
+
+}
+
+nav, a {
+	text-decoration: none;
+	color: #fff;
+	margin-right: 28px;
+}
+
+nav, a:hover {
+	color:#DD9928;
+}
+
+
+.help {
+	float: right;
+	margin-right: 150px; 
+}
+/*header end*/
+
+/*content left*/
+.mnleft {
+	width: 200px;
+	float: left;
+	margin-left: 100px;
+}
+
+.mnleft a {
+	color: #737372;
+}
+
+
+a.active{
+	color:#DD9928;
+}
+
+.mnleft li {
+	margin-bottom: 30px;
+}
+
+/*form1*/
+.form1 {
+	width: 733px;
+	height: 190px;
+	float: left;
+	margin-left: 100px;
+}
+
+.first1 p {
+	padding: 15px;
+	margin-top: 40px;
+	color: #737372;
+}
+
+.first {
+	height: 50px;
+	background: #484848;
+}
+.first1 {
+	border: 1px solid #A3A3A3;
+}
+
+h2 {
+	color:#fff;
+	text-transform: uppercase;
+	padding: 10px;
+}
+
+select#choose {
+	width: 229px;
+	height: 37px;
+	border-radius: 5px;
+	margin-left: 40px;
+	margin-bottom: 30px;
+}
+
+form {
+	padding: 15px;
+}
+
+
+div.link {
+	float: left;
+	width: 733px;
+	margin-left: 120px;
+	margin-top: 140px;
+}
+
+/*form2*/
+.form2 {
+	width: 733px;
+	height: 190px;
+	float: left;
+	margin-left: 400px;
+
+}
+
+.second {
+	border: 1px solid #A3A3A3;
+}
+
+.second p {
+	padding: 15px;
+	margin-top: 40px;
+	color: #737372;
+}
+
+button {
+	background: #F7A700;
+	color:#fff;
+	padding: 10px 30px;
+	cursor: pointer;
+	border-radius: 7px;
+	border: none;
+	font-size: 18px;
+	margin: 40px 0;
+}
+
+input[type="text"]{
+	width: 500px;
+	height: 37px;
+	margin-bottom: 20px;
+	margin-left: 40px;
+}
+
+input[type="number"]{
+	width: 85px;
+	height: 37px;
+	margin-bottom: 20px;
+}
+
+form, label {
+	color: #737372;
+}
+
+span.ins {
+	padding-right: 143px;
+}
+
+input.policy{
+	margin-left: 72px;
+}
+
+select#us {
+	width: 229px;
+	height: 37px;
+	border-radius: 5px;
+	margin-left: 40px;
+	margin-bottom: 30px;
